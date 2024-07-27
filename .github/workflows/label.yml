@@ -23,7 +23,7 @@ jobs:
           private-key: ${{ secrets.MANAGE_REVIEWS_BOT_PEM }}
           app-id: ${{ vars.MANAGE_REVIEWS_BOT_ID }}
 
-      - uses: Albitos/dismiss-stale-reviews@v1.0.1
+      - uses: Albitos/dismiss-stale-reviews@v1.0.3
         with:
           token: ${{ steps.get-token.outputs.token }}
           no-owner-action: "dismiss-none"
