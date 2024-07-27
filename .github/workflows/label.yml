@@ -27,4 +27,4 @@ jobs:
         with:
           token: ${{ steps.get-token.outputs.token }}
           no-owner-action: "dismiss-none"
-          team-whitelist: "@test-org-ws/test-team"
+          dismiss-only: "@test-org-ws/test-team"
